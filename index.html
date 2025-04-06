@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños, Ribhelly ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heart"></div>
+        <h1 class="title">Feliz Cumpleaños, <span id="name">Ribhelly</span>!</h1>
+        <p class="message">Hoy es tu día especial y quiero que sepas lo mucho que te amo.</p>
+        
+        <div class="gallery">
+            <div class="photo-frame" id="photo1">
+                <img src="/assets/img/luz.jpg" alt="Foto especial">
+                <div class="photo-caption">Eres la luz de mi vida</div>
+            </div>
+            <div class="photo-frame" id="photo2">
+                <img src="/assets/img/sonrisa.jpg" alt="Foto especial">
+                <div class="photo-caption">Tu sonrisa ilumina mi mundo</div>
+            </div>
+            <div class="photo-frame" id="photo3">
+                <img src="/assets/img/jntos.jpg" alt="Foto especial">
+                <div class="photo-caption">Todo es perfecto a tu lado</div>
+            </div>
+        </div>
+        
+        <button id="surpriseBtn" class="btn">¡Haz clic aquí!</button>
+        
+        <div id="surprise" class="hidden">
+            <div class="cake">
+                <div class="plate"></div>
+                <div class="layer layer-bottom"></div>
+                <div class="layer layer-middle"></div>
+                <div class="layer layer-top"></div>
+                <div class="icing"></div>
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <p class="wish">Que todos tus deseos se hagan realidad. Te amo más de lo que las palabras pueden expresar.</p>
+        </div>
+        
+        <canvas id="fireworksCanvas"></canvas>
+        
+        <audio id="birthdaySong" loop>
+            <source src="/assets//audio/BØRNS - Electric Love.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <div class="bubbles-container"></div>
+    <div class="confetti-container"></div>
+    <div class="dark-screen hidden" id="darkScreen"></div>
+    
+    <script src="/index.js"></script>
+</body>
+</html>
